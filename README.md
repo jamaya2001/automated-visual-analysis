@@ -1,6 +1,6 @@
 In this Code Pattern, we provide a long-running script that can monitor a folder for changes. As images are copied to the folder, they will then be automatically uploaded to be analyzed by a visual recognition service. This solution is primarily geared towards utility and communications companies that use drones to inspect their equipment. As the inspection footage is copied from the drone storage, the videos are split up into frames, and each individual frame is analyzed. The recognized class/object (ex. bad insulator, broken couplings, missing nuts), confidence score, heatmap, and video timestamp can then be stored in a CSV file. This CSV file is compatible with our previous code pattern [here](https://github.com/IBM/visual-insights-table), which renders the analysis results in a dashboard.
 
-<img src="https://i.imgur.com/ikvffft.png"  />
+<img src="https://i.imgur.com/ikvffft.png"/>
 
 ### Flow:
 
@@ -13,7 +13,7 @@ In this Code Pattern, we provide a long-running script that can monitor a folder
 7. CSV file is loaded into web application
 8. User is able to view and filter inference info in application
 
-### Prerequisites:
+### Prerequisites
 
 - Python 3 + pip
 - IBM Visual Insights
